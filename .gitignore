@@ -1,0 +1,62 @@
+# ==========================
+# Global Ignore
+# ==========================
+.DS_Store
+Thumbs.db
+*.log
+*.tmp
+*.bak
+
+# ==========================
+# Python / Backend
+# ==========================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pkl
+*.h5
+*.csv
+*.npy
+*.npz
+*.swp
+.env
+.venv/
+venv/
+env/
+.idea/
+.vscode/
+logs/
+flask_backend/data/raw/
+flask_backend/data/antenna_stream.csv
+flask_backend/model/dataset_used.csv
+
+# ==========================
+# Node / Frontend
+# ==========================
+node_modules/
+dist/
+.vite/
+.cache/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+
+# ==========================
+# Arduino / Firmware
+# ==========================
+firmware/esp32_env_monitor/build/
+firmware/esp32_env_monitor/*.elf
+firmware/esp32_env_monitor/*.bin
+firmware/esp32_env_monitor/*.map
+
+# ==========================
+# OS / Editor junk
+# ==========================
+*.bak
+*.tmp
+*.swp
+*.swo
+*.swn
+*.orig

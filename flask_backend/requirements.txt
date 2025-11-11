@@ -1,0 +1,11 @@
+Flask
+flask-cors
+flask-socketio
+eventlet
+numpy
+pandas
+scikit-learn
+tensorflow
+python-dotenv
+gunicorn
+requests
